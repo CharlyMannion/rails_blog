@@ -1,6 +1,13 @@
 # BLOG
 
-A simple rails application
+A simple rails application.
+
+## Using the application
+
+* `rails server`
+* visit http://localhost:3000
+
+## INFO
 
 * Ruby version: ruby 2.5.1p57
 
