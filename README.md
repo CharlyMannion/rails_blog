@@ -4,7 +4,7 @@ A simple rails application.
 
 ## Using the application
 
-* `rails server`
+* run `rails server`
 * visit http://localhost:3000
 
 ## INFO
