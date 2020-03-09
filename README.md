@@ -5,7 +5,9 @@ A simple rails application.
 ## Using the application
 
 * run `rails server`
-* visit http://localhost:3000
+* to say hello, visit http://localhost:3000
+* to view all the articles: http://localhost:3000/articles
+* to add a new article: http://localhost:3000/articles/new
 
 ## INFO
 
