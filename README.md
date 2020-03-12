@@ -6,7 +6,9 @@ A simple rails application.
 
 * run `rails server`
 * visit http://localhost:3000
-* To run tests, run `rails test` and `rspec`
+* To run RSpec tests: `rspec`
+* To run Rails tests: `rails test`  
+* To run system tests: `rails test:system`
 
 ## INFO
 
