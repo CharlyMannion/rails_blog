@@ -4,11 +4,15 @@ A simple rails application.
 
 ## Using the application
 
-* run `rails server`
-* visit http://localhost:3000
+* Fork this repo
+* Clone to your local machine `git clone https://github.com/CharlyMannion/rails_blog`
+* `bundle install`
+* To use the app locallt, run `rails server` and visit http://localhost:3000
 * To run RSpec tests: `rspec`
 * To run Rails tests: `rails test`  
+* To see the test coverage for Rails tests, after running the tests run
 * To run system tests: `rails test:system`
+* To see the test coverage, after running the tests run: `open coverage/index.html`
 
 ## INFO
 
