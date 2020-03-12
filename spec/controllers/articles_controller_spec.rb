@@ -1,4 +1,5 @@
 require 'rails_helper'
+require './test/test_helper.rb'
 
 RSpec.describe ArticlesController, type: :controller do
   describe 'POST #create' do
@@ -6,15 +7,14 @@ RSpec.describe ArticlesController, type: :controller do
       Article.create
       expect(response).to have_http_status(200)
     end
-    # it "creates an article" do
-    #   expect { Article.create }.to change { Article.count }.by(1)
-    # end
   end
 
   describe "GET /" do
     it 'renders index' do
-      article = Article.create(title: "Test title", text: "test article body")
-      # get "/articles/new"
+      p "article rendering"
+      p article = Article.create(title: "Test title", text: "test article body")
+      expect(article).to be_a(Article)
+      # get "/articles"
     end
   end
 end
