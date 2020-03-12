@@ -7,7 +7,10 @@ A simple rails application.
 * Fork this repo
 * Clone to your local machine `git clone https://github.com/CharlyMannion/rails_blog`
 * `bundle install`
-* To use the app locallt, run `rails server` and visit http://localhost:3000
+* To use the app locally, run `rails server` and visit http://localhost:3000
+
+## How to run the test suite
+
 * To run RSpec tests: `rspec`
 * To run Rails tests: `rails test`  
 * To see the test coverage for Rails tests, after running the tests run
@@ -18,18 +21,6 @@ A simple rails application.
 
 * Ruby version: ruby 2.5.1p57
 
-* System dependencies
+## Database
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* `rails db:migrate`
