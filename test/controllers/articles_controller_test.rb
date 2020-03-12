@@ -17,4 +17,10 @@ class ArticlesControllerTest < ActionDispatch::IntegrationTest
 
     assert_redirected_to article_path(Article.last)
   end
+
+  test "should show article" do
+    article = articles(:one)
+    get article_url(article)
+    assert_response :success
+  end
 end
